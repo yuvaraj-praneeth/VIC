@@ -3,8 +3,8 @@ import time
 import math as mt
 
 st.set_page_config(
-     page_title="NutryUS",
-     page_icon="🥗",
+     page_title="Vintage Industrial Components Pvt. Ltd",
+     page_icon=st.image(https://drive.google.com/file/d/1xCYzvDm-E6qzuWIQQmNznNNi_3gQbk6-/view?usp=sharing'),
      layout="centered",
      menu_items={
          'Get Help': None,
@@ -12,12 +12,6 @@ st.set_page_config(
          'About': "# This is a header. This is an *extremely* cool app!"
      }
  )
-
-my_bar = st.progress(0)
-for percent_complete in range(100):
-     time.sleep(0.1)
-     my_bar.progress(percent_complete + 1)
-#st.balloons()
 
 st.success('Successfuly loaded the page! 😊')
 
