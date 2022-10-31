@@ -4,7 +4,7 @@ import math as mt
 
 st.set_page_config(
      page_title="Vintage Industrial Components Pvt. Ltd",
-     page_icon=st.image('C:\Users\ypran\Downloads\logo-removebg-preview (1).png'),
+     page_icon="st.image('C:\Users\ypran\Downloads\logo-removebg-preview (1).png')",
      layout="centered",
      menu_items={
          'Get Help': None,
