@@ -3,7 +3,7 @@ import time
 import math as mt
 
 st.set_page_config(
-     page_title="Vintage Industrial Components Pvt. Ltd",
+     page_title="VIC",
      page_icon= 'file:///C:/Users/ypran/Downloads/logo-removebg-preview%20(1).png',
      layout="centered",
      menu_items={
@@ -13,11 +13,11 @@ st.set_page_config(
      }
  )
 
-st.success('Successfuly loaded the page! 😊')
 
-st.title('NutryUS')
-st.image('https://www.fredhutch.org/content/dam/www/research/divisions/public-health-sciences/nutrition-assessment/nutrition-dietary-data-gfb-2.jpg')
-st.header('Your new diet Dormitory Mother')
+st.title('Vintage Industrial Components Pvt. Ltd')
+st.header('Experience Driven')
+st.image('file:///C:/Users/ypran/Downloads/logo-removebg-preview%20(1).png')
+
 #st.text('Select your meal')
 #st.write("**Open the sidebar the type of meal on your left top corner to select **")
 #genre = st.sidebar.selectbox(
